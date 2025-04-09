@@ -51,7 +51,7 @@ public class SaveUsersSurvey extends HttpServlet {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String jdbcURL = "jdbc:mysql://localhost:3306/UsersSurveyDB";
             String dbUser = "root";
-            String dbPassword = "#rushi@2183#";
+            String dbPassword = "password";
 
             Connection conn = DriverManager.getConnection(jdbcURL, dbUser, dbPassword);
 
