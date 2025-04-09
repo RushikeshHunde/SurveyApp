@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background: url('../images/Test.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    margin: 100px auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #666;
+}
+
+h2{
+    position: inherit;
+    margin-top: 0px;
+    font-size: 4vh;
+    text-align: center;
+
+}
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 2px solid #353434;
+    background-color: #7373733a;
+}
+input:hover, select:hover{
+    background-color: #1ef1f500;
+}
+button{
+	position: absolute;
+	margin:20vh 0vh 0vh 60vh;
+	width:60vh;
+	height:50vh;
+	font-size:5vh;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius:30vh ;
+}
