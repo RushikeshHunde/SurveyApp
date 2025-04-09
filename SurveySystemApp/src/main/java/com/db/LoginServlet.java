@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 
             // Connect to MySQL
             conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/UsersLoginDB", "root", "#rushi@2183#");
+                "jdbc:mysql://localhost:3306/UsersLoginDB", "root", "password");
 
             // Insert data into usersinfo table
             String sql = "INSERT INTO UsersLoginInfo (name, email, password, age, gender, contact) VALUES (?, ?, ?, ?, ?, ?)";
